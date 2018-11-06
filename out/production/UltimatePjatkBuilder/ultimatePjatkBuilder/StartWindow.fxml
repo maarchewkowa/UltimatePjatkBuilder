@@ -1,0 +1,10 @@
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:controller="ultimatePjatkBuilder.StartController"
+      xmlns:fx="http://javafx.com/fxml" alignment="center"
+      stylesheets="ultimatePjatkBuilder/Style.css" styleClass="StartWindow">
+    <Label text="ULTIMATE PJATK BUILDER" />
+    <Button text="START" onAction="#startGameClick" />
+</VBox>

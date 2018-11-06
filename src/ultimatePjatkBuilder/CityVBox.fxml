@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root type="javafx.scene.layout.VBox" xmlns:fx="http://javafx.com/fxml" styleClass="CityVBox">
+    <HBox styleClass="Header">
+        <Label text="Total" />
+        <Label fx:id="performanceLabel" text="0PJC / s" />
+    </HBox>
+    <ScrollPane>
+        <VBox fx:id="floorsVBox" />
+    </ScrollPane>
+    <Button fx:id="buyFloorButton" text="Buy Next Floor!" onAction="#buyFloorClick"/>
+</fx:root>

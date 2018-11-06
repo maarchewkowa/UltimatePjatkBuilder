@@ -1,0 +1,76 @@
+.StartWindow {
+    -fx-background-color: #a17ca3;
+    -fx-spacing: 10;
+    -fx-font-family: Helvetica, Arial, sans-serif;
+    -fx-pref-width: 300;
+    -fx-pref-height: 275;
+}
+
+.StartWindow Label {
+    -fx-font-weight: bold;
+    -fx-font-size: 18;
+    -fx-text-fill: white;
+}
+
+.StartWindow Button {
+    -fx-pref-width: 200;
+    -fx-pref-height: 100;
+    -fx-background-color: #d6bdd2;
+    -fx-font-size: 16;
+    -fx-font-weight: bold;
+}
+
+.GameWindow {
+    -fx-pref-width: 600;
+    -fx-pref-height: 600;
+    -fx-background-color: #a17ca3;
+    -fx-spacing: 15;
+    -fx-font-family: Helvetica, Arial, sans-serif;
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+}
+
+.GameWindow .Header {
+    -fx-spacing: 20;
+    -fx-border-color: dimgray;
+    -fx-background-color: #d6bdd2;
+    -fx-border-width: 2;
+    -fx-alignment: center;
+}
+
+.GameWindow #citiesButtons {
+    -fx-spacing: 20;
+    -fx-alignment: center;
+}
+
+.GameWindow Button {
+    -fx-background-color: #d6bdd2;
+}
+
+.GameWindow .CityVBox {
+    -fx-spacing: 20;
+    -fx-alignment: center;
+}
+
+.GameWindow ScrollPane {
+    -fx-background: gray;
+    -fx-padding: 5;
+}
+
+.GameWindow #floorsVBox {
+    -fx-spacing: 20;
+}
+
+.GameWindow #floorsVBox > * {
+    -fx-spacing: 20;
+    -fx-alignment: center-left;
+}
+
+.GameWindow #floorsVBox Button {
+    -fx-text-fill: dimgray;
+}
+
+.GameWindow #floorsVBox Button.special {
+    -fx-background-color:
+            linear-gradient(red 0%, yellow 25%, green 50%, blue 75%, purple 100%);
+}

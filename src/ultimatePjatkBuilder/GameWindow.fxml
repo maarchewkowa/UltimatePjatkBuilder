@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="ultimatePjatkBuilder.GameController"
+      stylesheets="ultimatePjatkBuilder/Style.css" styleClass="GameWindow">
+    <HBox spacing="20" styleClass="Header">
+        <Label text="Total" />
+        <Label fx:id="performanceLabel" />
+        <Label fx:id="timeLabel" />
+        <Label text="Balance" />
+        <Label fx:id="balanceLabel" />
+    </HBox>
+    <HBox fx:id="citiesButtons" />
+    <VBox fx:id="cityContainer" />
+</VBox>
